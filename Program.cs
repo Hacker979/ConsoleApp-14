@@ -10,17 +10,13 @@ namespace ConsoleApp_14
     {
         static void Func()
         {
-            int n = int.Parse(Console.ReadLine());
-            int a = 1;
-            do
+            for(int a = 1; a<=5; a++)
             {
-                Console.WriteLine(a);
-                a++;
+                Console.WriteLine("Привет!");
             }
-            while (a <= n);
         }
         /// <summary>
-        /// Задание 2. Вывести на экран целые числа из интервала от 1 до n (цикл с параметром)
+        /// Задание 3. Вывести в столбик 5 раз слово «Привет!» (циклы с условием)
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
