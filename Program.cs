@@ -10,15 +10,17 @@ namespace ConsoleApp_14
     {
         static void Func()
         {
+            int n = int.Parse(Console.ReadLine());
             int a = 1;
-            while (a <= 10)
+            do
             {
                 Console.WriteLine(a);
                 a++;
             }
+            while (a <= n);
         }
         /// <summary>
-        /// Задание 1. Вывести на экран в столбик первые 10 натуральных чисел (циклы с условием, цикл с параметром)
+        /// Задание 2. Вывести на экран целые числа из интервала от 1 до n (цикл с параметром)
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
