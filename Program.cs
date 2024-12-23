@@ -10,13 +10,9 @@ namespace ConsoleApp_14
     {
         static void Func()
         {
-            for (int x = 1; x <= 5; x++)
+            for (int x = 1; x <= 25; x++)
             {
-                for(int b = 5; b > x; b--)
-                {
-                    Console.Write(" ");
-                }
-                for (int a = 1; a <= 10; a++)
+                for (int a = 1; a <= 18; a++)
                 {
                     Console.Write("#");
                 }
